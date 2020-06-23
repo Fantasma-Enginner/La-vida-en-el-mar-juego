@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
+
+    <title>Game Project</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src='script.js'></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="fish">
+            <div class="fish_body">
+                <div class="eye"></div>
+                <div class="fish_"></div>
+            </div>
+            <div class="fish__"></div>
+            <div class="tail1"></div>
+            <div class="tail2"></div>
+            <div class="bubbles bubble1"></div>
+            <div class="bubbles bubble2"></div>
+            <div class="bubbles bubble3"></div>
+            <div class="bubbles bubble4"></div>
+            <div class="bubbles bubble11"></div>
+            <div class="bubbles bubble12"></div>
+            <div class="bubbles bubble13"></div>
+            <div class="bubbles bubble14"></div>
+        </div>
+        <div class="bg-fish">
+            <img src="https://image.flaticon.com/icons/svg/2990/2990525.svg" id="bg-fish" alt="">
+            <div class="bubbles-small bubble5"></div>
+            <div class="bubbles-small bubble6"></div>
+            <div class="bubbles-small bubble7"></div>
+        </div>
+        <div class="jellyfish">
+            <img src="https://image.flaticon.com/icons/svg/875/875008.svg" id="jellyfish1" alt="">
+            <img src="https://image.flaticon.com/icons/svg/826/826956.svg" id="jellyfish2" alt="">
+            <div class="bubbles-small bubble8"></div>
+            <div class="bubbles-small bubble9"></div>
+            <div class="bubbles-small bubble10"></div>
+        </div>
+        <div class="rock"></div>
+        <img src="https://image.flaticon.com/icons/svg/1998/1998800.svg" id="starfish" alt="">
+        <button type="button" name="button" id="up-button">Up</button>
+        <button type="button" name="button" id="down-button">Down</button>
+        <img src="https://image.flaticon.com/icons/svg/468/468413.svg" id="shark" alt="">
+        <div class="score"></div>
+        <div class="seahorse-container">
+            <img src="https://image.flaticon.com/icons/svg/146/146672.svg" id="seahorse-icon" alt="">
+            <div class="bubbles-small bubble15"></div>
+            <div class="bubbles-small bubble16"></div>
+            <div class="bubbles-small bubble17"></div>
+        </div>
+        <div class="turtle-container">
+            <img src="https://image.flaticon.com/icons/svg/146/146718.svg" id="turtle-icon" alt="">
+            <div class="bubbles-small bubble18"></div>
+            <div class="bubbles-small bubble19"></div>
+            <div class="bubbles-small bubble20"></div>
+        </div>
+        <div class="count-of-worms">
+            <img src="https://image.flaticon.com/icons/svg/1833/1833959.svg" id="worm-icon" alt="">
+            <p id="count-of-worms"></p>
+        </div>
+    </div>
+    <div class="load-container">
+        <div class="image"></div>
+        <div class="text">Beware hooks and swordfish. <br> Eat worms to get extra points.</div>
+        <div class="progress-status">0%</div>
+        <progress value="0" max="100"></progress>
+        <div class="play-container">Play</div>
+        <div class="sounds-info">Sounds was taken from www.freesound.org</div>
+        <div class="bottom-text">Hope you will like it.</div>
+    </div>
+    <audio src="https://freesound.org/data/previews/160/160909_2900466-lq.mp3" id="game-end-audio" muted></audio>
+    <audio src="https://freesound.org/data/previews/504/504641_9395330-lq.mp3" id="ambience-audio" loop='loop'></audio>
+    <audio src="https://freesound.org/data/previews/429/429598_5121236-lq.mp3" id="eat-audio" muted></audio>
+</body>
+
+</html>
